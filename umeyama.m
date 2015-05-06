@@ -37,7 +37,7 @@ end
 
 %% Bootstrap
 R = U*S*V';
-t = mean_Y - R*mean_X;
+t = mean_X - R*mean_Y;
 
 %% Plotting
 if nargin>2 && plotResult
